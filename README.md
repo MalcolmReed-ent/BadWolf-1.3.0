@@ -1,9 +1,9 @@
-# BadWolf-1.3.0
-## Recent Changes
+# BadWolf-1.3.0 Deblobbed Forked Version
 # Desktop Screenshot
 ![Alt text](desktop.png)
 # Source lines of code
 ![Alt text](sloc.png)
+## Recent Changes
 ### Makefile Modifications
 - Removed the use of ./configure and meson/ninja for a Makefile
 - Removed gettext dependency and installation of localization files (*.mo)
