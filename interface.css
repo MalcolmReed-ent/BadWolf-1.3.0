@@ -1,0 +1,128 @@
+/*
+ * SPDX-FileCopyrightText: 2019-2022 Badwolf Authors <https://hacktivis.me/projects/badwolf>
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+
+/* Original Css Setting */
+/* 
+#browser__location, #browser__statuslabel, #browser__tabbox__context_label { font-family: monospace; }
+button:checked label { font-weight: bold; }
+*/
+
+/* 90s Themed Browser */
+/* Global Styles */
+* {
+    font-family: "monospace", monospace;
+}
+
+/* Main Browser Window */
+#browser__window {
+    background-color: #e0e0e0; /* Lightened main window color */
+    border: 2px outset #ffffff;
+}
+
+/* Tab Bar */
+#browser__tabbox {
+    background-color: #d0d0d0; /* Light gray for the tab bar */
+    padding: 3px 3px 0 3px;
+}
+
+#browser__tabbox__tab {
+    background-color: #ffffff; /* Bright white for tabs */
+    border: 2px outset #ffffff;
+    border-bottom: none;
+    border-radius: 0;
+    padding: 3px 8px;
+    margin-right: 1px;
+    color: #000000; /* Dark text for readability */
+}
+
+#browser__tabbox__tab:checked {
+    background-color: #c0c0c0; /* Light gray for the active tab */
+    border-bottom: 2px solid #d0d0d0; /* Border to indicate active tab */
+}
+
+#browser__tabbox__tab label {
+    color: #000000;
+}
+
+#browser__tabbox__tab:checked label {
+    font-weight: bold;
+}
+
+/* Location Bar */
+#browser__location {
+    font-size: 12px;
+    padding: 3px;
+    background-color: #ffffff;
+    border: 2px inset #808080;
+    border-radius: 0;
+}
+
+/* Buttons */
+button {
+    background-color: #d0d0d0; /* Light gray for buttons */
+    border: 2px outset #ffffff;
+    border-radius: 0;
+    padding: 3px 8px;
+    margin: 2px;
+    color: #000000;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+}
+
+button:active {
+    border-style: inset;
+}
+
+/* Status Bar */
+#browser__statuslabel {
+    font-size: 11px;
+    padding: 2px 5px;
+    background-color: #d0d0d0; /* Light gray for status bar */
+    border-top: 1px solid #808080;
+}
+
+/* Context Menu */
+#browser__tabbox__context_label {
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+/* Scrollbars */
+scrollbar {
+    background-color: #d0d0d0; /* Light gray for scrollbar */
+    border: 1px solid #808080;
+    width: 16px;
+}
+
+scrollbar slider {
+    background-color: #c0c0c0; /* Light gray for slider */
+    border: 1px outset #ffffff;
+}
+
+scrollbar slider:hover {
+    background-color: #b0b0b0; /* Slightly darker on hover */
+}
+
+/* Custom Classes */
+.custom-button {
+    background-color: #000080; /* Dark blue for custom buttons */
+    color: #ffffff;
+    border: 2px outset #0000ff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.custom-button:hover {
+    background-color: #0000a0; /* Darker blue on hover */
+}
