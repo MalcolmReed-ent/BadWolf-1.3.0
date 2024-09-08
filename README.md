@@ -56,7 +56,7 @@
 	ed required when compiling with ninja
 	
 # One line Debian Trixie/SID install command
-	sudo apt install libwebkit2gtk-4.1-dev libxml2-dev gettext
+	sudo apt install libwebkit2gtk-4.1-dev
 
 ```
 SPDX-FileCopyrightText: 2019-2022 Badwolf Authors <https://hacktivis.me/projects/badwolf>
