@@ -1,6 +1,9 @@
-# BadWolf
+# BadWolf-1.3.0
 ## Recent Changes
-
+# Desktop Screenshot
+![Alt text](desktop.png)
+# Source lines of code
+![Alt text](sloc.png)
 ### Makefile Modifications
 - Removed the use of ./configure and meson/ninja for a Makefile
 - Removed gettext dependency and installation of localization files (*.mo)
@@ -17,6 +20,7 @@
 - Deleted badwolf.inkscape.svg file
 - Removed bookmarks.c bookmarks.h bookmarks_test.c from source folder and bookmarks.h from badwolf.c
 - Added a sloc.png to view the Significant Lines of Code
+- Added a desktop.png to view the browser in action
 - Implemented a keybinding in keybindings.c for Ctrl+W to close the current tab.
 
 ### Documentation Cleanup
@@ -38,18 +42,18 @@
 ## Required Dependencies
 ### To successfully build and run BadWolf, you'll need the following libraries:
 # Browser Engine
-	- libwebkit2gtk-4.1-dev
+	libwebkit2gtk-4.1-dev
 
 ## Optional Dependencies, this build you dont need the two, but default Badwolf needs these and some extras listed below
 # Bookmark Management
-	- libxml2-dev
+	libxml2-dev
 
 # Localization Support
-	- gettext (for handling 'locale/fr/LC_MESSAGES/Badwolf/*.mo' files)
+	gettext (for handling 'locale/fr/LC_MESSAGES/Badwolf/*.mo' files)
 
 ## Optional Dependencies, Cont.d
-	- meson/ninja compiling method
-	- ed required when compiling with ninja, probably only needed on debian
+	meson/ninja compiling method
+	ed required when compiling with ninja
 	
 # One line Debian Trixie/SID install command
 	sudo apt install libwebkit2gtk-4.1-dev libxml2-dev gettext
